@@ -5,4 +5,5 @@
     <a href="tech">Tech News</a>
     <a href="delhi">Punjab Page</a>
     <a href="addition">Find Sum</a>
+    <a href="subtract">Subtract App</a>
 </center>
