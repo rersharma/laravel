@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TechController;
 use App\Http\Controllers\MathController;
 use  App\Http\Controllers\HandleRequestController;
+use App\Http\Controllers\MultiplyController;
 
 Route::get('/', function () {
     return view('home');
@@ -23,5 +24,6 @@ Route::get('delhi',[TechController::class,'Punjab_Pages']);
 Route::get('addition',[MathController::class,'Sum_App']);
 Route::post('sum_cal',[MathController::class,'Sum_cal']);
 Route::any('subtract',[HandleRequestController::class,"Calauclation"]);
+Route::any('multiply',[MultiplyController::class,"Multi_Calu"]);
 
 

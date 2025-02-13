@@ -6,4 +6,5 @@
     <a href="delhi">Punjab Page</a>
     <a href="addition">Find Sum</a>
     <a href="subtract">Subtract App</a>
+    <a href="multiply">Multiply App</a>
 </center>
