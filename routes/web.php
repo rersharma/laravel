@@ -5,6 +5,7 @@ use App\Http\Controllers\TechController;
 use App\Http\Controllers\MathController;
 use  App\Http\Controllers\HandleRequestController;
 use App\Http\Controllers\MultiplyController;
+use App\Http\Controllers\StudentController;
 
 Route::get('/', function () {
     return view('home');
@@ -25,5 +26,6 @@ Route::get('addition',[MathController::class,'Sum_App']);
 Route::post('sum_cal',[MathController::class,'Sum_cal']);
 Route::any('subtract',[HandleRequestController::class,"Calauclation"]);
 Route::any('multiply',[MultiplyController::class,"Multi_Calu"]);
+ Route::any('student',[StudentController::class,"Student_save"]);
 
 
