@@ -8,4 +8,5 @@
     <a href="subtract">Subtract App</a>
     <a href="multiply">Multiply App</a>
     <a href="student">Student App</a>
+    <a href="display_student">Student Display</a>
 </center>

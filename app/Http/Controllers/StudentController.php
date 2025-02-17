@@ -21,4 +21,10 @@ class StudentController extends Controller
              return view('studeent')->with('ans',"$n Record Save Successfully");
          }
     }
+
+     function Student_Display()
+     {
+          $student_records=DB::select("select * from students");
+          return view('displaystudent',["students"=>$student_records]);
+     }
 }
